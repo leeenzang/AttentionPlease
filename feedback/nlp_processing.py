@@ -7,7 +7,7 @@ from difflib import SequenceMatcher
 
 # STT API 설정
 API_URL = "https://api-inference.huggingface.co/models/CookieMonster99/whisper-small-kr"
-HEADERS = {"Authorization": "Bearer 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"}
+HEADERS = {"Authorization": "Bearer "}
 
 def process_audio(file_path, output_format="mp3"):
     """
